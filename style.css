@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(images/bg-intro-desktop.png);
+    display: flex;
+    background-color: hsl(0, 100%, 74%);
+}
+
+main{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-between;
+
+}
+main div.left,  .top, .bottom{
+    padding: 2em;
+    
+}
+
+
+.left h3{
+    font-size: 35px;
+    color: white;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.right{
+    width: 190%;
+}
+.top{
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 0px 6px 2px rgb(0 0 0 / 0.2 );
+}
+.top p span{
+    color: white;
+}
+
+.bottom{
+    background-color: white ;
+    border-radius: 10px;
+    box-shadow: 0px 6px 2px rgb(0 0 0 / 0.2 );
+    margin: 15px;
+    width: 100%;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid hsl(246, 25%, 77%);
+    font-size: 16px;
+    margin: 7px;
+    padding: 10px;
+    width: 100%;
+    
+}
+button{
+    width: 100%;
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 5px; 
+    margin: 7px;
+    padding: 16px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border: none;
+
+}
+.bottom p{
+    font-size: 11px ;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.bottom p a{
+    font-size: 11px ;
+    color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#error {
+    color: hsl(0, 100%, 74%);
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="left">
+            <h3>Learn to code by watching others</h3>
+            <p>
+                See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but
+                understanding how developers think is invaluable.
+            </p>
+
+        </div>
+        <div class="right">
+
+            <div class="top">
+                <p><span style="font-weight: 700;">Try it free 7 days</span> then $20/mo. thereafter </p>
+            </div>
+            <div class="bottom">
+                <form>
+                    <div>
+                        <input type="text" id="name" placeholder="First Name">
+                        <div id="error" class="first_name_error"></div>
+                    </div>
+                    <div>
+                        <input type="text" id="lname" placeholder="Last Name">
+                        <div id="error" class="last_name_error"></div>
+                    </div>
+                    <div>
+                        <input type="email" id="email" placeholder="Email Address">
+                        <div id="error" class="email_error"></div>
+                    </div>
+                    <div>
+                        <input type="password" id="pwd" placeholder="Password">
+                        <div id="error" class="pwd_error"></div>
+                    </div>
+                    <button>CLIAM YOUR FREE TRIAL</button>
+                    <p> By clicking the button, you are agreeing to our <a href="#">Terms and Services</a> </p>
+
+
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+
+</html>
