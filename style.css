@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background: url(images/bg-intro-desktop.png);
     display: flex;
     background-color: hsl(0, 100%, 74%);
 }
 
-main{
+main {
     width: 70%;
     margin: auto;
     display: flex;
@@ -19,13 +19,16 @@ main{
     justify-content: space-between;
 
 }
-main div.left,  .top, .bottom{
+
+main div.left,
+.top,
+.bottom {
     padding: 2em;
-    
+
 }
 
 
-.left h3{
+.left h3 {
     font-size: 35px;
     color: white;
     padding-bottom: 20px;
@@ -33,14 +36,16 @@ main div.left,  .top, .bottom{
     font-family: 'Poppins', sans-serif;
 }
 
-.left p{
+.left p {
     color: white;
     font-family: 'Poppins', sans-serif;
 }
-.right{
+
+.right {
     width: 190%;
 }
-.top{
+
+.top {
     background-color: hsl(248, 32%, 49%);
     border-radius: 10px;
     padding: 15px;
@@ -52,33 +57,35 @@ main div.left,  .top, .bottom{
     justify-content: center;
     align-items: center;
     color: white;
-    box-shadow: 0px 6px 2px rgb(0 0 0 / 0.2 );
+    box-shadow: 0px 6px 2px rgb(0 0 0 / 0.2);
 }
-.top p span{
+
+.top p span {
     color: white;
 }
 
-.bottom{
-    background-color: white ;
+.bottom {
+    background-color: white;
     border-radius: 10px;
-    box-shadow: 0px 6px 2px rgb(0 0 0 / 0.2 );
+    box-shadow: 0px 6px 2px rgb(0 0 0 / 0.2);
     margin: 15px;
     width: 100%;
 }
 
-input{
+input {
     border-radius: 5px;
     border: 1px solid hsl(246, 25%, 77%);
     font-size: 16px;
     margin: 7px;
     padding: 10px;
     width: 100%;
-    
+
 }
-button{
+
+button {
     width: 100%;
     background-color: hsl(154, 59%, 51%);
-    border-radius: 5px; 
+    border-radius: 5px;
     margin: 7px;
     padding: 16px;
     color: white;
@@ -89,19 +96,20 @@ button{
     border: none;
 
 }
-.bottom p{
-    font-size: 11px ;
+
+.bottom p {
+    font-size: 11px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     text-align: center;
     justify-content: center;
     align-items: center;
-    
-    
+
+
 }
 
-.bottom p a{
-    font-size: 11px ;
+.bottom p a {
+    font-size: 11px;
     color: hsl(0, 100%, 74%);
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
@@ -115,9 +123,17 @@ button{
     color: hsl(0, 100%, 74%);
     display: flex;
     justify-content: flex-end;
+
+}
+
+img {
+    position: absolute;
+    right: 18%;
+    margin-top: -60px;
+    display: none;
     
 }
 
-
-
-
+img.show {
+    display: block
+}
