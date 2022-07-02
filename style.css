@@ -169,3 +169,15 @@ img.show {
     position: relative;
 }
 
+
+@media screen and (max-width:375px) {
+
+    .container{
+       flex-flow: column;
+       
+
+    }
+
+    .right {
+        width: 150%;
+    }
