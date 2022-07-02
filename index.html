@@ -26,26 +26,26 @@
                 <p><span style="font-weight: 700;">Try it free 7 days</span> then $20/mo. thereafter </p>
             </div>
             <div class="bottom">
-                <form>
-                    <div>
-                        <input type="text" id="name" placeholder="First Name">
-                        <div id="error" class="first_name_error"></div>
-                      <img src="/images/icon-error.svg" alt="error">
+                <form class="form" id="form">
+                    <div class="form-control ">
+                        <input type="text" id="fname" placeholder="First Name">
+                        <img src="/images/icon-error.svg" alt="error">
+                        <small>Error message</small>
                     </div>
-                    <div>
+                    <div class="form-control">
                         <input type="text" id="lname" placeholder="Last Name">
-                        <div id="error" class="last_name_error"></div>
-                      <img src="/images/icon-error.svg" alt="error">
+                        <img src="/images/icon-error.svg" alt="error">
+                        <small>Error message</small>
                     </div>
-                    <div>
+                    <div class="form-control">
                         <input type="email" id="email" placeholder="Email Address">
-                        <div id="error" class="email_error"></div>
-                       <img src="/images/icon-error.svg" alt="error">
+                        <img src="/images/icon-error.svg" alt="error">
+                        <small>Error message</small>
                     </div>
-                    <div>
-                        <input type="password" id="pwd" placeholder="Password">
-                        <div id="error" class="pwd_error"></div>
-                         <img src="/images/icon-error.svg" alt="error">
+                    <div class="form-control">
+                        <input type="password" id="password" placeholder="Password">
+                        <img src="/images/icon-error.svg" alt="error">
+                        <small>Error message</small>
                     </div>
                     <button>CLIAM YOUR FREE TRIAL</button>
                     <p> By clicking the button, you are agreeing to our <a href="#">Terms and Services</a> </p>
@@ -54,8 +54,10 @@
                 </form>
             </div>
         </div>
+        <script src="appw.js"></script>
+
     </main>
-    <script src="./app.js"></script>
+
 </body>
 
 </html>
