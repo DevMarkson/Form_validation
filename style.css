@@ -79,10 +79,18 @@ input {
     margin: 7px;
     padding: 10px;
     width: 100%;
-
+    display: block;
 }
 
-button {
+.form-control.success input{
+    border-color: #2ecc71;
+}
+
+.form-control.error input{
+    border-color: #e74c3c;
+}
+
+.form button {
     width: 100%;
     background-color: hsl(154, 59%, 51%);
     border-radius: 5px;
@@ -94,7 +102,12 @@ button {
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
     border: none;
+    display: block;
 
+}
+
+.form{
+    padding: 1px 3px;
 }
 
 .bottom p {
@@ -119,58 +132,40 @@ button {
 
 }
 
-#error {
-    color: hsl(0, 100%, 74%);
-    display: flex;
-    justify-content: flex-end;
-
-}
 
 img {
     position: absolute;
-    right: 18%;
-    margin-top: -60px;
-    display: none;
+    top: 10px;
+    right: 3px;
+    visibility: hidden;
+}
+
+
+.form-control.error img{
+    visibility: visible;
+}
+
+.form-control small{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: -4px;
+    visibility: hidden;
     
+    
+}
+
+.form-control.error small{
+    visibility: visible;
 }
 
 img.show {
     display: block
 }
 
-
-@media screen and(max-width:375px) {
-  body{
-    background-image: url('./images/bg-intro-mobile.png');
-    background-color:hsl(0, 100%, 74%);
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  .container{
-    display: flex;
-    flex-direction: column;
-  }
-  .item_a{
-    padding: 1em;
-    text-align: center;
-  }
-  .item_b{
-    margin-bottom: 10px;
-  }
-  .item_a p{
-    font-family: "Poppins",sans-serif;
-    font-weight: 500;
-    text-align: center;
-  }
-  .item_a h1{
-    padding-bottom: 40px;
-    font-family: "Poppins",sans-serif;
-    font-weight: 700;
-    font-size: 700;
-  }
-  .form-container{
-    margin-bottom: 20px;
-  }
- 
+.form-control {
+    margin-bottom: 2px;
+    padding-bottom: 10px;
+    position: relative;
 }
+
