@@ -170,7 +170,7 @@ img.show {
 }
 
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:700px) {
 
     .container{
        flex-flow: column;
@@ -181,3 +181,15 @@ img.show {
     .right {
         width: 150%;
     }
+@media screen and (max-width:375px) {
+     .container{
+
+       flex-flow: column;
+    }
+    .right {
+        width:150%;
+        
+    }
+       
+    
+
